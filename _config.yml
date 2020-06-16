@@ -1,0 +1,55 @@
+# OpenGraph / Twitter metadata
+title: Security Contact Finder
+small_title: Security Contact Finder
+smallest_title: Security Contact Finder
+description: A site for finding security contacts, from the Cybersecurity and Infrastructure Security Agency.
+name: Security Contact Finder
+
+# GA and GitHub
+google_analytics_ua: ua-33523145-2
+org_name: cisagov
+repo_name: security-contact-finder
+branch: master
+
+uswds_path: assets/vendor/uswds
+
+exclude:
+- CONTRIBUTING.md
+- _config.yml
+- .travis.yml
+- .gitignore
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- vendor
+- gulpfile.js
+- manifest.yml
+- package.json
+- Staticfile
+- Staticfile.auth
+- node_modules
+- .nvmrc
+- .sass-cache
+- todo.txt
+
+markdown: kramdown
+
+plugins:
+  - jekyll-redirect-from
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/

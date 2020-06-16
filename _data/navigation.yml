@@ -1,0 +1,7 @@
+primary:
+  - text: "Home"
+    href: /
+
+mobile:
+  - text: "Home"
+    href: /

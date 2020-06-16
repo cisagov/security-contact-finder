@@ -1,0 +1,10 @@
+node_modules
+/assets/vendor
+/assets/css
+/vendor
+.sass-cache
+_site
+.DS_Store
+todo.txt
+.jekyll-metadata
+*.pyc
